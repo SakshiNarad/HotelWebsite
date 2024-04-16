@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.container {
+    margin: 0 auto;
+    color: #000;
+  }
+  
+ 
+
+
+#one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#one p {
+    width: 45%;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000;
+}
+
+#one img {
+    width: 45%;
+    transition: transform 0.5s ease;
+}
+#one img:hover {
+   
+    transform: scale(1.1);
+}
+
+#two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+ 
+#two p {
+    width: 45%;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000;
+}
+#two img {
+    width: 45%;
+    transition: transform 0.5s ease;
+    border-radius: 3px;
+}
+#two img:hover {
+   
+    transform: scale(1.1);
+}
+.container h2{
+    font-size: 2.8rem;
+    padding: 10px;
+    
+    text-align: center;
+    align-items: center;
+    color: #000;
+}
+.container hr{
+    width: 60px;
+    border-width: 3px;
+    border-color: #000;
+
+}
+.more{
+    margin: 0 auto;
+    color: #000;
+    margin-left: 150px;
+   
+    justify-content: center;
+    align-items: center;
+}
+.more h3{
+    color: #000;
+    align-items: center;
+    justify-content: center;
+}
+.more img{
+    
+    width: 100px;
+    height: 50px;
+    
+    
+}
+.more #first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.more #first .first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.more #first .first p{ 
+    width: 45%;
+    font-size: 16px;
+    
+    color: #000;
+}
+.more #first .sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.more #first .sec p{ 
+    width: 45%;
+    font-size: 16px;
+    
+    color: #000;
+}
+.more #second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.more #second .first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.more #second .first p{ 
+    width: 45%;
+    font-size: 16px;
+    
+    color: #000;
+}
+.more #second .sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.more #second .sec p{ 
+    width: 45%;
+    font-size: 16px;
+    
+    color: #000;
+}

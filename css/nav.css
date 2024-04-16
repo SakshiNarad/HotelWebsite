@@ -1,0 +1,89 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(141, 86, 86);
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+.right-navbar button{
+    background-color: #007bff;
+    color: #fff;
+}
+h2{
+    color: #000;
+}
+.second-navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+   /* min-height:10vh;*/
+    background-color: #000;
+  
+    
+    top:0;
+
+    color: #fff;
+    padding: 10px 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+.second-navbar a{
+    color:white;
+}
+.second-navbar a:hover{
+    color:#f84258;
+    text-decoration: none;
+
+}
+#login{
+    color:#f84258;
+}
+.logo {
+    margin: 10px 25px;
+
+}
+
+.logo img {
+    margin: 3px 5px;
+    height: 95px;
+}
+
+
+.nav-links{
+    display:flex;
+    list-style: none;
+    width:50%;
+    justify-content: space-around;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size:14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-links1{
+    margin-left: 5px;
+    display:flex;
+    list-style: none;
+    width:50%;
+    justify-content: space-around;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size:14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.burger div{
+    background-color:#f84258;
+    width:25px;
+    height:3px;
+    margin:5px;
+    transition: all 0.3s ease;
+}
+
+.burger{
+    display:none;
+    cursor: pointer;
+}

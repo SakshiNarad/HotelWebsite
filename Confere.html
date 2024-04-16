@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nova+Cut|Nova+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/Task10/css/home.css" />
+<link rel="stylesheet" href="/Task10/css/nav.css">
+<link rel="stylesheet" href="/Task10/css/conf.css">
+<body>
+    <header>
+        <nav class="navbar">
+          <div class="left-navbar">
+           
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+              </svg><i class="fas fa-phone-alt"></i> Call Us</a >
+          </div>
+          <div class="right-navbar">
+            <!--<button>Register</button>
+            <button>Sign In</button>
+            code for form-->
+            <button onclick="openForm('registerForm')">Register</button>
+   <button onclick="openForm('loginForm')">Login</button>
+   
+   <!-- Registration Form -->
+   <div id="registerForm" class="form-container">
+     <div class="form-content">
+       <span class="close" onclick="closeForm('registerForm')">&times;</span>
+       <h2>Registration Form</h2>
+       <!-- Your registration form content here -->
+       <form>
+         
+         <label for="name">Name:</label>
+         <input type="text" id="name" placeholder="name" required>
+         <label for="signupMobileNumber">Mobile Number:</label>
+         <input type="text" id="signupMobileNumber" placeholder="signupMobileNumber" pattern="[0-9]*" required>
+         <label for="signupPassword">Password:</label>
+         <input type="password" id="signupPassword" placeholder="signupPassword" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required>
+         <label for="Email-Id">Email-Id</label>
+         <input type="Email-Id" id="signupEmail" placeholder="signupEmail"  required>
+         <input type="submit" value="Register">
+        
+        
+       </form>
+     </div>
+   </div>
+   
+   <!-- Login Form -->
+   <div id="loginForm" class="form-container">
+     <div class="form-content">
+       <span class="close" onclick="closeForm('loginForm')">&times;</span>
+       <h2>Login Form</h2>
+       <!-- Your login form content here -->
+       <form>
+         <!-- Form fields go here -->
+         <label for="mobileNumber">Mobile Number:</label>
+                   <input type="text" id="mobileNumber" placeholder="mobileNumber" pattern="[0-9]*" required>
+                   <label for="password">Password:</label>
+                   <input type="password" id="password" placeholder="password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required>
+                   <input type="submit" value="Log in ">
+                   <h4 class="other-login-op">Or login with</h4>
+                   <br>
+                   
+                   <div class="social">
+                     <a href="https://google.com"><img src="/Task4/img/icons/icon-google.png" class="other-login-op-img" height="33" width="30"alt=""></a>&nbsp;&nbsp;
+                     <a href="https://facebook.com"><img src="/Task4/img/icons/fb.png" class="other-login-op-img" height="30" width="35" alt=""></a>&nbsp;&nbsp;
+                     <a href="https://google.com"><img src="/Task4/img/icons/favicon.jpg" class="other-login-op-img" height="32" width="35"alt=""></a>
+                   </div>
+                  
+       </form>
+     </div>
+   </div>
+   
+           </div>
+         </nav>
+  
+        <nav class="second-navbar">
+         <!-- <div class="logo">
+            <img src="logo.jpg" alt="Myonlinemeal.com" />
+          </div>-->
+  
+          <ul class="nav-links1">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="facility.html">Facilities</a></li></ul>
+            <div class="logo">
+              <img src="/Task10/img/Home/logo.jpg" alt="Myonlinemeal.com" />
+            </div>
+        
+        <ul class="nav-links">
+            <li><a href="Resto.html">Restaurant</a></li>
+            <li><a href="Confere.html">Conference and Banquet</a></li>
+            
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </header>
+      <div class="container">
+        <div class="image-container">
+          <img src="/Task10/img/confer/banq.jpg" alt="Image 1">
+          <img src="/Task10/img/confer/birth.jpg" alt="Image 2">
+          <img src="/Task10/img/confer/conbg.jpg" alt="Image 3">
+        </div>
+
+        <div class="one">
+          <h2>Conference & Banquet </h2>
+          <hr>
+          <div id="one">
+        
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio ipsam vitae alias quod neque sed eum fugit culpa molestias id repudiandae totam nostrum possimus earum tempora, quae recusandae provident sit temporibus quo porro facere eveniet voluptate? Minima officia perspiciatis accusantium quaerat hic laborum earum. Reiciendis expedita hic quas nostrum. Laudantium harum modi itaque nobis a nam sit ullam quaerat ut earum. Explicabo pariatur natus recusandae distinctio consequatur sed laudantium, iste quia laboriosam. Repellat neque, aut a consectetur dignissimos ea, excepturi tempore autem possimus inventore ad quam, eaque repellendus? Voluptate qui quisquam sint facere veniam dolore mollitia modi libero explicabo porro!</p>
+          <img src="/Task10/img/confer/conhall.jpg" alt="">
+        </div>
+        <div class="btn-group">
+         
+          <a href="mailto:sakshisnarad06@gmail.com" class="btn">Contact</a>
+        </div>
+
+      </div>
+      <div class="one">
+        <h2>Events at Banquet</h2> 
+       <hr>
+      </div>
+      <div class="two">
+       
+          <div id="two">
+            <div class="image">
+              <img src="/Task10/img/confer/edwh.jpg" alt="Image 1" class="active">
+              <img src="/Task10/img/confer/hald.jpg" alt="Image 2">
+              <img src="/Task10/img/confer/odw.jpg" alt="Image 3">
+            </div>
+            <h3>Wedding Events</h3>
+            </div>
+           <div id="one">
+          
+              <div class="imagesed">
+                <img src="/Task10/img/confer/birth.jpg" alt="Image 1" class="active">
+                <img src="/Task10/img/confer/anni.jpg" alt="Image 2">
+                <img src="/Task10/img/confer/banq.jpg" alt="Image 3">
+              </div>
+              
+      </div>
+      </div>
+
+      <div class="meal">
+        <h2>Events at Conference</h2>
+        <hr>
+        <div id="meal">
+          <div class="left">
+            <img src="/Task10/img/confer/conf.jpg" alt="" />
+           
+            <h3>DISCUSS SUCCESS</h3>
+            
+          </div>
+          <div class="left">
+            <img src="/Task10/img/confer/conbg.jpg" alt="" />
+            <h3>ICONIC HALL</h3>
+          </div>
+          <div class="left">
+            <img src="/Task10/img/confer/conhall.jpg" alt="" >
+           
+            <h3 >EPIC CONFERENCE</h3>
+          </div>
+        </div>
+    </div> 
+      
+     
+
+
+
+
+      <br><br><br>
+      <!-- FOOTER -->
+    <div class="footer-container">
+        <div class="footer-1">
+          <div class="logo">
+            <img src="/Task10/img/Home/logo.jpg" alt="Myonlinemeal.com" />
+          </div>
+          <br>
+          <p><b>ONLINE Booking </b></p>
+            <h5>
+             <img src="/Task4/img/icons/icon-google.png" alt=""><br><br>
+              mail to: <a href="sakshisnarad06@gmail.com">  Hotel </a>
+             <br><br>
+            </h5>
+        </div>
+  
+        <div class="footer-2">
+          <p><b>USEFUL LINKS</b></p>
+          <h6>
+            Contact Us<br><br>
+            FAQ<br><br>
+            T&C<br><br>
+            Blog<br><br>
+            Privacy Policy<br><br>
+          </h6>
+        </div>
+  
+        <div class="footer-3">
+          <p><b>Find Us </b></p>
+         <img src="/Task4/img/icons/map-marker.png" alt="" srcset="">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121058.93192400379!2d73.780394084673!3d18.524761300404396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1707460171057!5m2!1sen!2sin"
+                        width="450"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                      ></iframe>
+                    </div>
+          <br><br>
+        </div>
+      
+      </div>
+      <p class="copy-right"><a href="index.html">Sakshi</a>&copy;2024</p>
+      <br>
+    <!-- FOOTER -->
+  
+      <script
+        src="https://kit.fontawesome.com/a076d05399.js"
+        crossorigin="anonymous"
+      ></script>
+      <script src="/Task10/js/home.js"></script>
+      <script src="/Task10/js/conf.js"></script>
+     
+</body>
+</html>
